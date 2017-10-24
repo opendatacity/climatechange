@@ -2,7 +2,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	font-size: 1em;
-	font-family: Lato, 'Arial', sans-serif;
+	font-family: Arial, sans-serif;
 	color: #ffffff;
 	text-shadow: none;
 	overflow-x: hidden;
@@ -84,11 +84,11 @@ p {
 }
 
 #title_big {
-	font-family: EucrosiaUPC, 'sans-serif';
+	font-family: "Times New Roman", 'sans-serif';
 	font-weight: bolder;
-	font-size: 10rem;
+	font-size: 8rem;
 	position: relative;
-	top: -4.5rem;
+	top: -2.2rem;
 	color: #FFFFFF;
 	opacity: 0.6;
 	float: left;
@@ -114,7 +114,9 @@ p {
 #overlay_trigger {
 	z-index: 1010;
 	position: absolute;
-	font-family: "DejaVu Sans Mono", sans-serif;
+	font-family: Arial, sans-serif;
+	font-style: italic;
+	font-weight: bolder;
 	font-size: 1.5rem;
 	top: 2%;
 	right: 4.5%;
@@ -242,7 +244,7 @@ p {
 }
 
 #info_content {
-	font: 0.5rem Lato, Arial, sans-serif;
+	font: 0.5rem Arial, sans-serif;
 	color: #000000;
 }
 
@@ -308,7 +310,7 @@ p {
 #info_close {
 	background: none;
 	border: none;
-	font-size: 1.25rem;
+	font-size: 1.375rem;
 	position: absolute;
 	top: 0;
 	right: 0;

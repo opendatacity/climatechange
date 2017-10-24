@@ -8,7 +8,7 @@ $(function () {
 
 	var MARKERS_PATH = 'data/capitols_europe.json';
 
-	var TEMPERATURE_PATH = 'data/legacy/dec_summers/';
+	var TEMPERATURE_PATH = 'data/europe_summer/';
 	var RCP45_TASMAX_BIG = [ //TODO currently unused. Remove when new data set is available.
 		"2020-06-27_MIROC-ESM_rcp45_europe-big_tasmax_isotherms_geojson.json",
 		"2030-06-28_MIROC-ESM_rcp45_europe-big_tasmax_isotherms_geojson.json",
@@ -460,7 +460,7 @@ $(function () {
 		$("#info_content")
 			.html(
 				'<input class="info_name" id="info_select" placeholder="select a location">' +
-				'<img id="info_search" src="resources/search_small.png">')
+				'<img id="info_search" src="images/search_small.png">')
 			.css("padding", "0 0 1.4rem");
 		$("#line_chart").height(0); //NV.D3 don't like it if it's hidden.
 		$("#cigarette_chart").html("").hide();
